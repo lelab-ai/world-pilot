@@ -1,0 +1,7 @@
+Condition,TotalCases,EquivalenceCount,EquivalenceRate,InstructionFailures,InstructionFailureRate,SatisfiedBothCount,SatisfiedBothRate,SAT_AB_PassCount,SAT_AB_PassRate,SAT_BA_PassCount,SAT_BA_PassRate,InvariantViolationsPre,InvariantViolationsPost,MeanRuntimeMs
+C0_NaiveSequential,200,86,43.0%,71,35.5%,129,64.5%,200,100.0%,129,64.5%,0,0,0.06
+C_HASH_ONLY,200,200,100.0%,65,32.5%,135,67.5%,135,67.5%,135,67.5%,0,0,0.05
+C_HASH_RECONCILED,200,200,100.0%,65,32.5%,135,67.5%,135,67.5%,135,67.5%,0,0,0.04
+C_DEP_NO_HASH,200,183,91.5%,1,0.5%,199,99.5%,199,99.5%,199,99.5%,32,32,0.16
+C4_DependencyAwareExecution,200,184,92.0%,1,0.5%,199,99.5%,199,99.5%,199,99.5%,32,32,0.12
+C5_DependencyAwareMinimalRepair,200,200,100.0%,1,0.5%,199,99.5%,199,99.5%,199,99.5%,32,0,0.14

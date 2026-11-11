@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';
+import {auditExperiencePrompt} from '../engine/experienceAuditor';
+import {certifiedExperiencesRegistry} from '../library/certifiedExperiences';
+import {parseInstruction} from '../authoring/parser';
+assert.deepEqual(certifiedExperiencesRegistry.map(e=>e.id),['cert_auto_battery_12v','cert_mindel_bag_capacity']);
+const car=await auditExperiencePrompt('Montrer comment changer une batterie dans une voiture','Mécanique & Automobile');
+assert.equal(car.trace.completed,true);assert.equal(car.objects3d.forbiddenFallbacksDetected.length,0);assert(car.interactions.rulesCount>=2);assert(car.interactions.invariantsCount>=1);
+const unsupported=parseInstruction('Chauffe la fiole Erlenmeyer sur le brûleur de laboratoire',{selectedEntityId:null,pointedEntityId:null},{});
+assert(['unknown','unavailable_public_model'].includes(unsupported.plan.intent));assert.deepEqual(unsupported.patch,{});
+console.log('PASS: public gallery, executable battery quest, safety invariant and unsupported model handling.');

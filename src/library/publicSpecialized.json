@@ -1,0 +1,38 @@
+{
+  "wp-voiture": {
+    "id": "wp-voiture",
+    "name": "Voiture Berline (Compartiment Moteur Ouvert)",
+    "category": "Industrie",
+    "description": "Berline automobile 3D avec capot moteur relevé et compartiment moteur complet",
+    "size": [
+      1.8,
+      1.4,
+      2.8
+    ],
+    "role": "floor_furniture"
+  },
+  "wp-batterie-automobile": {
+    "id": "wp-batterie-automobile",
+    "name": "Batterie Automobile 12V 70Ah AGM",
+    "category": "Industrie",
+    "description": "Batterie automobile 12V AGM avec poignée, bornes (+) rouge et (-) bleue, et voyant Magic Eye",
+    "size": [
+      0.48,
+      0.32,
+      0.32
+    ],
+    "role": "prop"
+  },
+  "wp-generateur-secours": {
+    "id": "wp-generateur-secours",
+    "name": "Générateur de Secours 12V",
+    "category": "Industrie",
+    "description": "Générateur / onduleur portable 12V d’atelier avec tableau de commande",
+    "size": [
+      0.45,
+      0.32,
+      0.3
+    ],
+    "role": "prop"
+  }
+}

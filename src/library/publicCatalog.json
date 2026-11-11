@@ -1,0 +1,41 @@
+[
+  {
+    "id": "socket",
+    "name": "Emplacement d’accroche",
+    "category": "Manipuler",
+    "description": "Une cible physique pour déposer un objet sélectionné.",
+    "size": [
+      0.8,
+      0.15,
+      0.8
+    ],
+    "text": "DÉPOSER ICI",
+    "zone": true
+  },
+  {
+    "id": "technical-bench",
+    "name": "Établi technique",
+    "category": "Industrie",
+    "description": "Établi robuste avec étau et rangements.",
+    "size": [
+      2,
+      0.9,
+      0.8
+    ],
+    "text": "ÉTABLI TECHNIQUE"
+  },
+  {
+    "id": "wp-ordinateur-portable",
+    "name": "Ordinateur portable",
+    "category": "Réunions · travail et conférences",
+    "recipe": "laptop",
+    "variant": 0,
+    "size": [
+      0.34,
+      0.24,
+      0.25
+    ],
+    "text": "ORDINATEUR PORTABLE",
+    "description": "Ordinateur portable. Équiper des espaces de collaboration, bureaux et conférences. Modèle de décor, échelle ajustable."
+  }
+]

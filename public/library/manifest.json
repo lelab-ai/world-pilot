@@ -1,0 +1,35 @@
+[
+  {
+    "id": "socket",
+    "name": "Emplacement d\u2019accroche",
+    "category": "Manipuler",
+    "bytes": 88456,
+    "bounds": [
+      0.800000011920929,
+      0.13799999833107,
+      0.800000011920929
+    ]
+  },
+  {
+    "id": "technical-bench",
+    "name": "\u00c9tabli technique",
+    "category": "Industrie",
+    "bytes": 472268,
+    "bounds": [
+      2,
+      1.1600000071525574,
+      0.800000011920929
+    ]
+  },
+  {
+    "id": "wp-ordinateur-portable",
+    "name": "Ordinateur portable",
+    "category": "R\u00e9unions \u00b7 travail et conf\u00e9rences",
+    "bytes": 761464,
+    "bounds": [
+      0.34,
+      0.24,
+      0.24999999999999997
+    ]
+  }
+]

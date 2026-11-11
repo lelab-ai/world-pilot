@@ -1,0 +1,23 @@
+{
+  "src/core/types.ts": "7919b2184e90b80e6192c22e6e334833cb6811ef6c23d193cde45dab6c58833c",
+  "src/engine/ambientAudio.ts": "22c00f536052af443ea389c6f177fa4ddfd34eef3778f35b0e843c9d7a851923",
+  "src/engine/evaluator.ts": "184242407f44de100b505d0979bcaf1905d21f4f794cc2550f7d3efb02b12ee8",
+  "src/research/datasets/editOrderDataset.ts": "7496671a1dd92473ee64fcecc27dd063b33dca3dcdac3f2398545ef0fa3da121",
+  "src/research/datasets/editOrderDatasetV2.ts": "2ee1637302f4cee7df2619cd45e5f7c32308646bdbeb72a5b04fe0f54e370a27",
+  "src/research/editOrder/behavioralEquivalence.ts": "14ac9dbe1667223747763e9f144e5d8d30b36fd3f70f3cd0bc70660cd26dd225",
+  "src/research/editOrder/canonicalSnapshot.ts": "7996c5d1f316e5b16e97988b561d9dbb862807ceae78593ff5b099dfdeb7ef0b",
+  "src/research/editOrder/dependencyOverlap.ts": "545f156096ffd5d32f75cf6c43f0bc814f87ce2a9c83280cbb244b79ba67cb38",
+  "src/research/editOrder/experimentRunner.ts": "98e8d52681a2bd2380e259e8453cac0133c5beed845a59068265c3a74bf4f6bc",
+  "src/research/editOrder/experimentTypes.ts": "38f72896e9199a14a60dd609db6a494179f9170511a8997782406ec2173b6cb3",
+  "src/research/editOrder/repairPolicy.ts": "8a5610a371fa93db8205ac197a52476bdb823023b7caaabaa9b9e8a361763b21",
+  "src/research/editOrder/riskPredictors.ts": "5f007dc9ff47a77e706b4166c314f7a7b4a2de9b70465d2e87c77f066232601f",
+  "src/research/editOrder/semanticEditInterpreter.ts": "c7ce2815ba10cd8b7759d4484b29ac9062780fdf52892ef3f4c4aac4ce0ba549",
+  "src/research/editOrder/v2/experimentRunnerV2.ts": "0d69049ef437a7a23e19e83a82f45607f5de1cb9d8aaf514ed017ed465730ae7",
+  "src/research/editOrder/v2/experimentTypesV2.ts": "5d03a81c6c623233aa336af6e966e507bc023b9ee2b79b9017e25cef6865ab18",
+  "src/research/editOrder/v2/riskPredictorsV2.ts": "3f92bb873271cadd4216a71e5e1580d41d3120308d8e04a63a46a31ab02c989b",
+  "src/research/editOrder/verifyPatchSatisfaction.ts": "be0d0a2fa5cf1b4fd9a9f3265f9dd749a83939a2fef171ea493d1d12ff88ff24",
+  "src/research/editOrder/worldCloneManager.ts": "658f6ee968262a221cc1e8aaeaaf2fc51d06c951cd07a6c27d876b67d6dcb8c8",
+  "src/research/semanticBlastRadius.ts": "36d32fc412c5301a706b67c99f53784cf9ef35d490b3677f970f41a45b6ade06",
+  "src/scene/xrHaptics.ts": "57053ae5ba621d7b03db105c0af0ddb076d4135e386b593978f633fb82d7e6fc",
+  "src/simulation/simulator.ts": "bf3381123a2eb127e690277ad5ee2db188dec7c491ceb20a198594817c75d148"
+}

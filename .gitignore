@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build and Production Outputs
+dist/
+dist-ssr/
+build/
+.cache/
+*.local
+
+# Environment and Secrets
+.env
+.env.*
+!.env.example
+
+# Logs and Runtime Diagnostics
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+
+# Temporary and Scratch Directories
+tmp/
+temp/
+scratch/
+audit_archive_staging/
+.tmp/
+
+# Archive and Bundle Artifacts
+*.zip
+*.tar.gz
+*.tgz
+
+# OS and Editor Specific
+.DS_Store
+**/.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local blind benchmark files (anti-leakage)
+eo_bench_blind*.jsonl
+
+# Also ignore a development dependency symlink.
+/node_modules
+
+/benchmark-results/

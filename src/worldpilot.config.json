@@ -1,0 +1,20 @@
+{
+  "llm_provider": "deepseek",
+  "inventory": {
+    "models": {},
+    "textures": {
+      "texture_lave": "/textures/lava.jpg",
+      "texture_grille_uv": "/textures/lava.jpg",
+      "texture_globe_terrestre": "/textures/earth.jpg",
+      "texture_eau": "/textures/water.jpg"
+    },
+    "webhooks": {
+      "webhook_mint_nft": "https://api.victoriavr.com/mint"
+    },
+    "pages": {
+      "victoria_vr_home": "https://www.victoriavr.com/",
+      "victoria_vr_news": "https://www.victoriavr.com/news",
+      "victoria_vr_ai_builder": "https://www.victoriavr.com/news/ai-builder-hackathon-2026-the-building-period-2042daf3"
+    }
+  }
+}
